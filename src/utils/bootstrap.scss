@@ -24,16 +24,7 @@
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
-// Toggle global options
-$enable-shadows: true;
-
-$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-
-// Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
-$success: #7952b3;
+@import "variables";
 
 // Required
 @import "~bootstrap/scss/functions";
@@ -52,7 +43,7 @@ $success: #7952b3;
 // @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/transitions";
-@import "~bootstrap/scss/dropdown";
+// @import "~bootstrap/scss/dropdown";
 // @import "~bootstrap/scss/button-group";
 // @import "~bootstrap/scss/nav";
 // @import "~bootstrap/scss/navbar"; // Requires nav
@@ -68,10 +59,10 @@ $success: #7952b3;
 // @import "~bootstrap/scss/toasts";
 @import "~bootstrap/scss/modal"; // Requires transitions
 // @import "~bootstrap/scss/tooltip";
-@import "~bootstrap/scss/popover";
+// @import "~bootstrap/scss/popover";
 // @import "~bootstrap/scss/carousel";
 // @import "~bootstrap/scss/spinners";
-@import "~bootstrap/scss/offcanvas"; // Requires transitions
+// @import "~bootstrap/scss/offcanvas"; // Requires transitions
 // @import "~bootstrap/scss/placeholders";
 
 // Helpers
@@ -79,14 +70,3 @@ $success: #7952b3;
 
 // Utilities
 @import "~bootstrap/scss/utilities/api";
-
-
-//
-// Custom styles
-//
-
-@import "icon-list";
-
-body {
-  padding: 1.5rem;
-}
